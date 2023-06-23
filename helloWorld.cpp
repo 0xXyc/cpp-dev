@@ -2,13 +2,9 @@
 
 int main()
 {
-    int a = 1;          // Original variables -- Write code to swap the value of two variables
-    int b = 2;
-                       // Swap here
-    int temp = a;
-    a = b;
-    b = temp;
-    std::cout << a;
+    const double pi = 3.14;             // constants stop variables from changing
+    //pi = 3.13;                        // If we were to uncomment this, we would get an error because we are trying to change the variable
+    std::cout << pi;
 
     return 0;
 }
