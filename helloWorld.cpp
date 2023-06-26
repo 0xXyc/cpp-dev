@@ -5,13 +5,10 @@ using namespace  std;
 int main()
 {
 
-    double sales = 95000;
-    double stateTax = sales * .04;
-    double countyTax = sales * .02;
-
-    cout << "Sales: $" << sales << endl;
-    cout << "State Tax: $" << stateTax << endl;
-    cout << "County Tax: $" << countyTax;
+    cout << "Enter a value: ";
+    double value;
+    cin >> value;
+    cout << "Value: " << value;
 
     return 0;
 }
