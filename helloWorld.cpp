@@ -1,10 +1,17 @@
 #include <iostream>
 
+using namespace  std;
+
 int main()
 {
-    const double pi = 3.14;             // constants stop variables from changing
-    //pi = 3.13;                        // If we were to uncomment this, we would get an error because we are trying to change the variable
-    std::cout << pi;
+
+    double sales = 95000;
+    double stateTax = sales * .04;
+    double countyTax = sales * .02;
+
+    cout << "Sales: $" << sales << endl;
+    cout << "State Tax: $" << stateTax << endl;
+    cout << "County Tax: $" << countyTax;
 
     return 0;
 }
